@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".FragmentOne">
+
+    <Button
+        android:id="@+id/btnHide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hide"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/btns"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnUnhide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="unhide"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/btns"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+</LinearLayout>
